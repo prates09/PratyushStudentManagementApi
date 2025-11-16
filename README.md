@@ -54,8 +54,6 @@ PratyushStudentManagementApi/
 │
 └── Program.cs
 
-
-
 ---
 
 ## 🧠 Architecture Overview
