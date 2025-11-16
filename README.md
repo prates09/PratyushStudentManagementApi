@@ -54,8 +54,7 @@ PratyushStudentManagementApi/
 │
 └── Program.cs
 
-yaml
-Copy code
+
 
 ---
 
