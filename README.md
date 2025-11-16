@@ -28,31 +28,33 @@ All data is stored **in memory**, making the API easy to run and test without an
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 PratyushStudentManagementApi/
 │
 ├── Controllers/
-│ └── StudentsController.cs
+│   └── StudentsController.cs
 │
 ├── Data/
-│ ├── IStudentData.cs
-│ └── InMemoryStudentData.cs
+│   ├── IStudentData.cs
+│   └── InMemoryStudentData.cs
 │
 ├── Handlers/
-│ ├── Commands/
-│ │ ├── AddStudentCommand.cs
-│ │ ├── UpdateStudentCommand.cs
-│ │ └── DeleteStudentCommand.cs
-│ │
-│ └── Queries/
-│ ├── GetAllStudentsQuery.cs
-│ └── GetStudentByIdQuery.cs
+│   ├── Commands/
+│   │   ├── AddStudentCommand.cs
+│   │   ├── UpdateStudentCommand.cs
+│   │   └── DeleteStudentCommand.cs
+│   │
+│   └── Queries/
+│       ├── GetAllStudentsQuery.cs
+│       └── GetStudentByIdQuery.cs
 │
 ├── Models/
-│ └── Student.cs
+│   └── Student.cs
 │
 └── Program.cs
+
 
 ---
 
